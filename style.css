@@ -57,21 +57,33 @@
 
 .banner {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .top-info-text {
+    display: flex;
+    margin-top: 295px;
+    margin-bottom: 350px;
+
+}
+
+.top-text {
     font-family: 'Lato';
     font-style: normal;
     font-size: 48px;
     line-height: 58px;
     color: #222222;
-    margin-top: 290px;
+    border: 12px solid #F16D7F;
+    border-bottom: none;
+    border-right: none;
+    border-top: none;
+    padding-left: 16px;
 }
 
 .item-block {
     display: flex;
     flex-direction: column;
+
 }
 
 .categories {
