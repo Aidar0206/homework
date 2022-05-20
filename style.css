@@ -25,6 +25,7 @@
     display: flex;
     align-items: flex-end;
     list-style-type: none;
+    padding: 16px 20px;
 }
 
 .logo-list-list {
@@ -39,14 +40,60 @@
     display: flex;
     align-items: flex-end;
     list-style-type: none;
+    padding: 21px 20px;
+}
+
+.menu-list-list:hover .menu-box {
+    display: block;
 }
 
 .menu-list-list {
     margin-right: 32px;
+    position: relative;
+    ;
 }
 
 .menu-list-list:last-child {
     margin-right: 0;
+}
+
+.menu-box {
+    background: #FFFFFF;
+    width: 232px;
+    position: absolute;
+    top: 30px;
+    display: none;
+    z-index: 1;
+}
+
+.menu-item {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    padding: 30px;
+    padding-bottom: 0;
+}
+
+.menu-item:last-child {
+    padding-bottom: 30px;
+}
+
+.menu-link {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 33px;
+    color: #6F6E6E;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-link:hover {
+    color: #F16D7F;
 }
 
 .top-info {
@@ -61,10 +108,8 @@
 }
 
 .top-info-text {
-    display: flex;
     margin-top: 295px;
-    margin-bottom: 350px;
-
+    float: left;
 }
 
 .top-text {
@@ -73,10 +118,7 @@
     font-size: 48px;
     line-height: 58px;
     color: #222222;
-    border: 12px solid #F16D7F;
-    border-bottom: none;
-    border-right: none;
-    border-top: none;
+    border-left: 12px solid #F16D7F;
     padding-left: 16px;
 }
 
@@ -134,4 +176,168 @@
 
 .text-style-fashion {
     color: #F16D7F;
+}
+
+.top-footer {
+    background: #222224;
+}
+
+.opportunity-block {
+    display: flex;
+    justify-content: space-around;
+    height: 340px;
+    align-items: center;
+}
+
+.opportunity {
+    text-align: center;
+    max-width: 360px;
+}
+
+.opportunity-img {
+    margin-bottom: 20px;
+}
+
+.opportunity-heading {
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.opportunity-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
+    font-weight: 300;
+}
+
+.sub-footer {
+    background-image: linear-gradient(90deg, rgba(244, 244, 244, 0.7) 0%, rgba(244, 244, 244, 0.3) 100%), url(img/fback.jpg);
+    background-repeat: no-repeat;
+}
+
+.agency-block {
+    height: 448px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.agency {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    align-items: center;
+}
+
+.artimg {
+    margin-bottom: 32px;
+}
+
+.agency-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222224;
+    text-align: center;
+}
+
+.sub {
+    width: 500px;
+}
+
+.sub-heading {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 167.2%;
+    text-align: center;
+    color: #222224;
+}
+
+.sub-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 167.2%;
+    text-align: center;
+    color: #222224;
+    font-weight: 400;
+}
+
+form {
+    margin-top: 32px;
+    text-align: center;
+}
+
+input {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 48px;
+    color: #222224;
+    opacity: 0.67;
+    background: #E1E1E1;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    margin-right: -4px;
+    width: 255px;
+}
+
+button {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 48px;
+    color: #FFFFFF;
+    background: #F16D7F;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: none;
+    padding: 0 20px;
+}
+
+.f-bottom {
+    background: #222224;
+    height: 80px;
+}
+
+.footer-link {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rights-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+}
+
+.link-img {}
+
+.mes-links {
+    margin-right: 8px;
+    background: #FFFFFF;
+    background-position: center;
+    padding: 8px 10px;
 }
