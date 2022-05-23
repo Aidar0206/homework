@@ -125,7 +125,6 @@
 .item-block {
     display: flex;
     flex-direction: column;
-
 }
 
 .categories {
@@ -136,6 +135,10 @@
 
 .items {
     position: relative;
+}
+
+.item-img {
+    filter: brightness(40%);
 }
 
 .item-text {
@@ -153,7 +156,10 @@
 
 .accesories {
     position: relative;
-    margin-bottom: 96px;
+}
+
+.accesories-img {
+    filter: brightness(40%);
 }
 
 .accesories-text {
@@ -177,6 +183,158 @@
 .text-style-fashion {
     color: #F16D7F;
 }
+
+.item-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-section-heading {
+    margin-top: 96px;
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 6px;
+}
+
+.item-section-text {
+    margin-bottom: 48px;
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+}
+
+.item-section-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    width: 360px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.item:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.16);
+}
+
+.item-section-img {
+    width: 100%;
+}
+
+.item-link {
+    width: 360px;
+    display: block;
+    text-decoration: none;
+    background: #F8F8F8;
+}
+
+.item:hover .item-section-img {
+    filter: brightness(30%);
+}
+
+.text-box {
+    padding: 20px;
+}
+
+.item-desc-title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.price-tag {
+    margin-top: 18px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+}
+
+.item-desc {
+    margin-top: 13px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+}
+
+.add {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    border: 1px solid #FFFFFF;
+    text-decoration: none;
+    pointer-events: auto;
+}
+
+.cart-add {
+    width: 100%;
+    display: none;
+    position: absolute;
+    top: 188px;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.add:hover {
+    box-shadow: 0 0 15px #fff;
+}
+
+.item:hover .cart-add {
+    display: flex;
+}
+
+.add-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-left: 11px;
+}
+
+.item-section-button {
+    display: flex;
+    justify-content: center;
+}
+
+.product-button {
+    border: 1px solid #FF6A6A;
+    margin-bottom: 95px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 48px;
+    padding: 0 36px;
+    background: #fff;
+    text-decoration: none;
+    color: #F26376;
+}
+
+.product-button:hover {
+    background: #F16D7F;
+    color: #FFFFFF;
+}
+
 
 .top-footer {
     background: #222224;
@@ -221,6 +379,7 @@
 .sub-footer {
     background-image: linear-gradient(90deg, rgba(244, 244, 244, 0.7) 0%, rgba(244, 244, 244, 0.3) 100%), url(img/fback.jpg);
     background-repeat: no-repeat;
+    background-position: center bottom;
 }
 
 .agency-block {
@@ -298,18 +457,22 @@ input {
     width: 255px;
 }
 
-button {
+.sub-button {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 48px;
-    color: #FFFFFF;
     background: #F16D7F;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     border: none;
     padding: 0 20px;
+}
+
+.sub-button-text {
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .f-bottom {
@@ -333,11 +496,10 @@ button {
     color: #FBFBFB;
 }
 
-.link-img {}
-
 .mes-links {
     margin-right: 8px;
-    background: #FFFFFF;
-    background-position: center;
-    padding: 8px 10px;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 16px;
+    padding: 10px;
 }
