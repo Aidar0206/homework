@@ -509,7 +509,7 @@ form {
   text-align: center;
 }
 
-input {
+.sub-form {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
@@ -818,5 +818,199 @@ input {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.regist-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.regist-box-loyalty {
+  width: 652px;
+  margin-top: 30px;
+}
+
+.regist-box-loyalty-heading {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+
+.regist-box-loyalty-text {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-bottom: 21px;
+}
+
+.regist-box-loyalty-list {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  list-style-position: inside;
+  list-style-image: url(img/liststyle.svg);
+}
+
+.regist-box-loyalty-list-mark {
+  margin-bottom: 16px;
+}
+
+.regist-box-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  text-align: left;
+  width: 360px;
+}
+
+.regist-box-form-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+}
+
+.regist-box-form-data-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.regist-box-form-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+}
+
+.regist-box-form-details-text {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+  text-align: center;
+}
+
+.regist-box-form .regist-heading {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+  margin-bottom: 20px;
+}
+
+.regist-box-form .regist-input-form {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #A4A4A4;
+  outline: none;
+}
+
+.regist-box-form .regist-gender {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+  margin-bottom: 34px;
+}
+
+.regist-box-form .regist-gender-radio {
+  margin-right: 10px;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+.regist-box-form .regist-gender-text {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+}
+
+.regist-box-form .regist-gender-check {
+  margin-right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.join-button {
+  margin-top: 40px;
+  margin-bottom: 96px;
+}
+
+.join-button-submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+  border: none;
+  background: #F16D7F;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 50px;
+  color: #FFFFFF;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.join-button-submit-img {
+  margin-left: 20px;
 }
 /*# sourceMappingURL=style.css.map */

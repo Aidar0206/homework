@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product</title>
+    <title>Registration</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <header class="top">
+    <header class="top-catalog-header">
         <nav class="top-header">
             <div class="top-header-content container">
                 <div class="top-logo">
@@ -63,110 +63,63 @@
         <nav class="nav-top">
             <div class="navbar container">
                 <div class="navbar-heading">
-                    <h1 class="navbar-text"><span class="text-style-fashion">new arrivals</span></h1>
-                </div>
-                <div class="navbar-links">
-                    <a class="navbar-links-current" href="#">home / </a>
-                    <a class="navbar-links-current" href="#">men / </a>
-                    <a class="navbar-links-current" href="#"><span class="text-style-fashion">new arrivals</span></a>
+                    <h1 class="navbar-text"><span class="text-style-fashion">REGISTRATION</span></h1>
                 </div>
             </div>
         </nav>
     </header>
 
-    <div class="product">
-        <img class="product-img" src="img/product-main.jpg" alt="MOSCHINO CHEAP AND CHIC">
-    </div>
-
-    <section class="add-box container">
-        <div class="add-box-section">
-            <div class="add-box-section-desc">
-                <h4 class="add-box-section-desc-category"><span class="text-style-fashion">WOMEN COLLECTION</span></h4>
-                <hr class="add-box-section-desc-hr">
-                <h3 class="add-box-section-desc-prodtitle">MOSCHINO CHEAP AND CHIC</h3>
-                <p class="add-box-section-desc-text">Compellingly actualize fully researched processes before proactive
-                    outsourcing.
-                    Progressively syndicate
-                    collaborative architectures before cutting-edge services. Completely visualize parallel core
-                    competencies rather than exceptional portals. </p>
-                <p class="add-box-section-desc-price">$561</p>
-                <hr class="add-box-section-desc-split">
-            </div>
-
-            <div class="add-box-section-choose">
-                <details class="add-box-section-choose-details">
-                    <summary class="add-box-section-choose-details-content">choose color</summary>
-                </details>
-                <details class="add-box-section-choose-details">
-                    <summary class="add-box-section-choose-details-content">choose size</summary>
-                </details>
-                <details class="add-box-section-choose-details">
-                    <summary class="add-box-section-choose-details-content">quantity</summary>
-                </details>
-            </div>
-            <div class="add-button">
-                <a class="add-button-link" href="#"><img class="cartpink" src="img/cartpink.svg" alt=""> Add To Cart</a>
-            </div>
-        </div>
-    </section>
-
-    <div class="item-product container">
-        <div class="item">
-            <a class="item-link" href="product.html">
-                <img class="item-section-img" src="img/product.jpg" alt="product">
-                <div class="text-box">
-                    <p class="item-desc-title">ELLERY X M'O CAPSULE</p>
-                    <p class="item-desc">Known for her sculptural takes on&nbsp;traditional tailoring, Australian
-                        arbiter
-                        of&nbsp;cool Kym
-                        Ellery teams up&nbsp;with Moda Operandi.</p>
-                    <p class="price-tag">$52.00</p>
+    <div class="regist-box container">
+        <div class="regist-box-form">
+            <form action="#">
+                <div class="regist-box-form-data">
+                    <h4 class="regist-heading">Your Name</h4>
+                    <div class="regist-box-form-data-name">
+                        <input class="regist-input-form" type="text" placeholder="First Name">
+                        <input class="regist-input-form" type="text" placeholder="Last Name">
+                    </div>
+                    <div class="regist-gender">
+                        <div class="regist-gender-check">
+                            <input class="regist-gender-radio" type="radio" name="gender">
+                            <p class="regist-gender-text">Male</p>
+                        </div>
+                        <div class="regist-gender-check">
+                            <input class="regist-gender-radio" type="radio" name="gender">
+                            <p class="regist-gender-text">Female</p>
+                        </div>
+                    </div>
                 </div>
-            </a>
-            <div class="cart-add">
-                <a class="add" href="#">
-                    <img src="img/cart-add.svg" alt="add to cart">
-                    <p class="add-text">Add to Cart</p>
-                </a>
-            </div>
-        </div>
-        <div class="item">
-            <a class="item-link" href="product.html">
-                <img class="item-section-img" src="img/product.jpg" alt="product">
-                <div class="text-box">
-                    <p class="item-desc-title">ELLERY X M'O CAPSULE</p>
-                    <p class="item-desc">Known for her sculptural takes on&nbsp;traditional tailoring, Australian
-                        arbiter
-                        of&nbsp;cool Kym
-                        Ellery teams up&nbsp;with Moda Operandi.</p>
-                    <p class="price-tag">$52.00</p>
+                <div class="regist-box-form-details">
+                    <h4 class="regist-heading">Login details</h4>
+                    <input class="regist-input-form" type="email" placeholder="Email">
+                    <input class="regist-input-form" type="password" placeholder="Password">
+                    <p class="regist-box-form-details-text">Please use 8 or more characters, with at least 1 number and
+                        a mixture of
+                        uppercase and lowercase
+                        letters</p>
                 </div>
-            </a>
-            <div class="cart-add">
-                <a class="add" href="#">
-                    <img src="img/cart-add.svg" alt="add to cart">
-                    <p class="add-text">Add to Cart</p>
-                </a>
-            </div>
-        </div>
-        <div class="item">
-            <a class="item-link" href="product.html">
-                <img class="item-section-img" src="img/product.jpg" alt="product">
-                <div class="text-box">
-                    <p class="item-desc-title">ELLERY X M'O CAPSULE</p>
-                    <p class="item-desc">Known for her sculptural takes on&nbsp;traditional tailoring, Australian
-                        arbiter
-                        of&nbsp;cool Kym
-                        Ellery teams up&nbsp;with Moda Operandi.</p>
-                    <p class="price-tag">$52.00</p>
+                <div class="join-button">
+                    <button class="join-button-submit" type="submit">
+                        <p class="join-button-sumbit-text">join now</p>
+                        <img class="join-button-submit-img" src="img/joinnow.svg" alt="join now button">
+                    </button>
                 </div>
-            </a>
-            <div class="cart-add">
-                <a class="add" href="#">
-                    <img src="img/cart-add.svg" alt="add to cart">
-                    <p class="add-text">Add to Cart</p>
-                </a>
-            </div>
+            </form>
+        </div>
+        <div class="regist-box-loyalty">
+            <h2 class="regist-box-loyalty-heading">loyalty has its perks</h2>
+            <p class="regist-box-loyalty-text">Get in on the loyalty program where you can earn points and unlock
+                serious perks. Starting with these as soon as you join:</p>
+            <ul class="regist-box-loyalty-list">
+                <li class="regist-box-loyalty-list-mark">15% off welcome offer
+                </li>
+                <li class="regist-box-loyalty-list-mark">Free shipping, returns and exchanges on all orders
+                </li>
+                <li class="regist-box-loyalty-list-mark">$10 off a purchase on your birthday
+                </li>
+                <li class="regist-box-loyalty-list-mark">Early access to products</li>
+                <li class="regist-box-loyalty-list-mark">Exclusive offers & rewards</li>
+            </ul>
         </div>
     </div>
 
@@ -204,7 +157,6 @@
             </div>
         </nav>
     </footer>
-
 </body>
 
 </html>
