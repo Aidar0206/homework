@@ -96,37 +96,44 @@
 }
 
 .top-info {
-    background: #F1E4E6;
-    max-height: 764px;
+    background-color: #F1E4E6;
     margin-bottom: 64px;
 }
 
 .banner {
     display: flex;
     justify-content: space-between;
+    min-height: 764px;
 }
 
 .top-info-text {
-    margin-top: 295px;
-    float: left;
+    height: 150px;
+    margin-top: 290px;
 }
 
 .top-text {
+
     font-family: 'Lato';
     font-style: normal;
     font-size: 48px;
     line-height: 58px;
     color: #222222;
     border-left: 12px solid #F16D7F;
-    padding-left: 16px;
+    padding: 15px 15px 0;
+
+    &-heading {
+        margin-bottom: 16px;
+    }
 }
 
 .item-block {
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .categories {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
@@ -136,20 +143,25 @@
     position: relative;
 }
 
+.items:hover {
+    transform: scale(1.05);
+}
+
 .item-img {
+    width: 100%;
+    height: auto;
     filter: brightness(40%);
 }
 
 .item-text {
-    position: absolute;
     top: 105px;
-    left: 116px;
+    left: 125px;
+    position: absolute;
     text-align: center;
     font-family: 'Lato';
     font-style: normal;
     font-size: 16px;
     line-height: 19px;
-    text-align: center;
     color: #FFFFFF;
 }
 
@@ -157,7 +169,12 @@
     position: relative;
 }
 
+.accesories:hover {
+    transform: scale(1.05);
+}
+
 .accesories-img {
+    width: 100%;
     filter: brightness(40%);
 }
 
@@ -379,7 +396,7 @@
     background-image: linear-gradient(90deg, rgba(244, 244, 244, 0.7) 0%, rgba(244, 244, 244, 0.3) 100%), url(img/fback.jpg);
     background-repeat: no-repeat;
     background-position: center bottom;
-    width: auto;
+    background-size: cover;
 }
 
 .agency-block {
@@ -434,6 +451,10 @@
     font-weight: 400;
 }
 
+.sub-input-form {
+    display: flex;
+}
+
 form {
     margin-top: 32px;
     text-align: center;
@@ -453,7 +474,6 @@ form {
     padding-left: 25px;
     border-bottom-left-radius: 25px;
     border-top-left-radius: 25px;
-    margin-right: -4px;
     width: 255px;
 }
 
@@ -542,10 +562,14 @@ form {
     justify-content: center;
     border: 2px solid #80808054;
     padding: 10px 0 40px;
+}
 
+.add-box {
+    height: 601px;
 }
 
 .add-box-section {
+    height: 601px;
     display: flex;
     flex-direction: column;
     padding: 64px 290px;
@@ -628,6 +652,10 @@ form {
         line-height: 17px;
         color: #6F6E6E;
         text-transform: uppercase;
+
+        &-details {
+            z-index: 1;
+        }
 
         summary {
             display: block;
@@ -859,3 +887,7 @@ form {
         }
     }
 }
+
+
+
+@media screen and (max-width: 1024px) {}
